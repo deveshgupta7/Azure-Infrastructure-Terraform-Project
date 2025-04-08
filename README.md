@@ -1,4 +1,4 @@
-# VeriPark Terraform Infra Project
+# Terraform Infra Project
 
 ## Requirements
 - Terraform CLI >= 1.3.0
