@@ -33,7 +33,7 @@ This project provisions a secure, modular infrastructure on Microsoft Azure for 
 └── versions.tf
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -64,13 +64,13 @@ terraform plan
 terraform apply
 ```
 
-## 📌 Notes
+## Notes
 
 - Update `terraform.tfvars` with your tenant ID, object ID, and secure credentials.
 - SQL Server password must meet Azure's complexity requirements.
 - No application code is deployed; this project focuses solely on infrastructure.
 
-## 🧠 Bonus Concepts
+## Bonus Concepts
 
 - **Landing Zone**: The architecture represents a secure, scalable landing zone for workloads in Azure.
 - **Hub-and-Spoke Topology**: Recommended networking model to securely route traffic across environments.
