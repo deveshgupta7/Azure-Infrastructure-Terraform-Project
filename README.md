@@ -1,8 +1,8 @@
-# VeriPark Azure Infrastructure - Terraform Project
+# Azure Infrastructure - Terraform Project
 
 This project provisions a secure, modular infrastructure on Microsoft Azure for deploying an e-commerce API solution using Terraform. It includes App Services for Backend-for-Frontend (BFF) and Middleware, a SQL Database with Customer Managed Key (CMK), Private Endpoints, and all associated networking components.
 
-## ✅ Features
+## Features
 
 - Azure App Services (BFF & Middleware) using PremiumV2 Plan
 - Azure SQL Database with Transparent Data Encryption (TDE) & CMK
@@ -11,7 +11,7 @@ This project provisions a secure, modular infrastructure on Microsoft Azure for 
 - Private DNS Zones and Private Endpoints for internal access
 - Modular Terraform structure for easy reusability
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -45,8 +45,8 @@ This project provisions a secure, modular infrastructure on Microsoft Azure for 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-repo/veripark-azure-infra.git
-cd veripark-azure-infra/environments/west-europe
+git clone https://github.com/your-repo/Azure-Infrastructure-Terraform-Project
+cd Azure-Infrastructure-Terraform-Project/environments/west-europe
 ```
 
 2. Initialize Terraform:
@@ -74,11 +74,3 @@ terraform apply
 
 - **Landing Zone**: The architecture represents a secure, scalable landing zone for workloads in Azure.
 - **Hub-and-Spoke Topology**: Recommended networking model to securely route traffic across environments.
-
-## 📄 License
-
-This project is proprietary to the candidate as part of the VeriPark technical assessment.
-
----
-
-Created with ❤️ by a Cloud Engineer candidate.
